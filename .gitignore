@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+package-lock.json
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+BackEnd/keys.json
+.env
+scrap.txt
+buisnessInfo
+
+StripeRecovery
+# macOS
+.DS_Store
+
+# FrontEnd/utils/exports.js
+FrontEnd/*.lock

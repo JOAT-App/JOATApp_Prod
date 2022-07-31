@@ -1,0 +1,24 @@
+body {
+  background-color: #03D7FC33;
+}
+
+.joatHeading{
+    font-size:  2em;
+    white-space:nowrap;
+    font-family: 'Fanwood Text';
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2%
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.temp {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 40%
+}

@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Joat",
+    "slug": "PrototypeUI",
+    "version": "1.0.0 ",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6cb2c8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+  "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "0.2.1",
+      "bundleIdentifier": "com.JOATAPP.Joat",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to find jobs and workers near you"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./Logos/87051214.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.JOATAPP.Joat"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you upload a profile picture."
+        }
+      ]
+    ],
+    "description": ""
+  }
+}
